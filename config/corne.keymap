@@ -61,10 +61,10 @@
             //                                   '--------+---------+---------'       '-------+---------+---------'
 
             bindings = <
-&kp TAB           &trans          &kp UP_ARROW    &trans           &trans  &trans       &kp SLASH     &kp N7        &kp N8         &kp N9        &kp ASTERISK  &kp BACKSPACE
-&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans       &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp MINUS     &trans
-&kp LSHFT         &trans          &trans          &trans           &trans  &trans       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp PLUS      &trans
-                                                  &kp LGUI         &tog 0  &kp SPACE    &kp ENTER     &mo 3         &kp RIGHT_ALT
+&kp TAB           &trans          &kp UP_ARROW    &trans           &kp C_VOL_DN  &kp C_VOLUME_UP    &kp SLASH     &kp N7        &kp N8         &kp N9        &kp ASTERISK  &kp BACKSPACE
+&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans             &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp MINUS     &trans
+&kp LSHFT         &kp K_UNDO      &kp K_CUT       &kp K_COPY       &kp K_PASTE   &trans             &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp PLUS      &kp DEL
+                                                  &kp LGUI         &tog 0        &kp SPACE          &kp ENTER     &mo 3         &kp RIGHT_ALT
             >;
         };
 
@@ -80,9 +80,9 @@
             //                                   '--------+----------+----------'       '---------+----------+---------'
 
             bindings = <
-&kp TAB         &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp LCTRL       &trans           &trans       &trans     &trans      &trans         &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp DOT
-&kp LEFT_SHIFT  &trans           &trans       &trans     &trans      &trans         &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &trans
+&kp TAB         &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp LCTRL       &trans           &trans       &trans     &trans      &trans         &kp MINUS       &kp EQUAL      &kp GRAVE      &kp RIGHT_BRACKET     &kp RIGHT_BRACKET      &kp DOT
+&kp LEFT_SHIFT  &trans           &trans       &trans     &trans      &trans         &kp UNDERSCORE  &kp PLUS       &kp TILDE2     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
                                               &kp LGUI   &mo ADJUST  &kp SPACE      &kp ENTER       &sl 0          &kp RIGHT_ALT
             >;
         };
