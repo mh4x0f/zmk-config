@@ -27,6 +27,18 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        ajust_layer_combo {
+            bindings = <&mo 3>;
+            key-positions = <39 38>;
+            layers = <0>;
+            timeout-ms = <0>;
+            require-prior-idle-ms = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
