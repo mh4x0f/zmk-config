@@ -37,6 +37,11 @@
             timeout-ms = <0>;
             require-prior-idle-ms = <0>;
         };
+
+        layer_gamer {
+            bindings = <&tog 4>;
+            key-positions = <36 41>;
+        };
     };
 
     keymap {
@@ -76,7 +81,7 @@
 &kp TAB           &kp HOME        &kp UP_ARROW    &kp END          &kp C_VOL_DN  &kp C_VOLUME_UP    &kp SLASH     &kp N7        &kp N8         &kp N9        &kp ASTERISK  &kp BACKSPACE
 &kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans             &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp MINUS     &trans
 &kp LSHFT         &kp K_UNDO      &kp K_CUT       &kp K_COPY       &kp K_PASTE   &kp PRINTSCREEN    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp PLUS      &kp DEL
-                                                  &kp LGUI         &tog 0        &kp SPACE          &kp ENTER     &mo 3         &kp RIGHT_ALT
+                                                  &kp LGUI         &tog 2        &kp SPACE          &kp ENTER     &mo 3         &kp RIGHT_ALT
             >;
         };
 
@@ -115,6 +120,15 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &kp K_STOP  &trans
 &trans      &trans        &trans        &trans        &trans        &trans          &trans      &trans        &trans           &trans            &trans      &trans
                                         &kp LWIN      &to 0         &kp SPACE       &kp ENTER   &to 0         &kp RIGHT_ALT
+            >;
+        };
+
+        layer_gamer {
+            bindings = <
+&kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T        &trans     &kp N7  &kp N8  &kp N9  &trans  &trans
+&kp LSHFT  &kp A   &kp S   &kp D   &kp F   &trans       &trans     &kp N4  &kp N5  &kp N6  &trans  &trans
+&kp LCTRL  &trans  &trans  &trans  &trans  &trans       &kp N0     &kp N1  &kp N2  &kp N3  &trans  &trans
+                           &tog 0  &trans  &kp SPACE    &kp ENTER  &trans  &tog 0
             >;
         };
     };
