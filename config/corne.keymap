@@ -40,7 +40,17 @@
 
         layer_gamer {
             bindings = <&tog 4>;
-            key-positions = <36 41>;
+            key-positions = <0 11>;
+        };
+
+        next_bluetooth {
+            bindings = <&bt BT_NXT>;
+            key-positions = <41 36>;
+        };
+
+        prev_bluetooth {
+            bindings = <&bt BT_PRV>;
+            key-positions = <37 40>;
         };
     };
 
@@ -129,6 +139,15 @@
 &kp LSHFT  &kp A   &kp S   &kp D   &kp F   &trans       &trans     &kp N4  &kp N5  &kp N6  &trans  &trans
 &kp LCTRL  &trans  &trans  &trans  &trans  &trans       &kp N0     &kp N1  &kp N2  &kp N3  &trans  &trans
                            &tog 0  &trans  &kp SPACE    &kp ENTER  &trans  &tog 0
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
