@@ -88,10 +88,10 @@
             //                                   '--------+---------+---------'       '-------+---------+---------'
 
             bindings = <
-&kp TAB           &kp HOME    &kp UP     &kp END     &kp C_VOL_DN  &kp C_VOLUME_UP    &kp SLASH  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp BACKSPACE
-&kp LEFT_CONTROL  &kp LEFT    &kp DOWN   &kp RIGHT   &trans        &kp LEFT_GUI       &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &kp DOT
-&kp LSHFT         &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE   &kp PRINTSCREEN    &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp DEL
-                                         &kp LGUI    &mo 2         &kp SPACE          &kp ENTER  &mo 3         &kp NUMBER_0
+&kp TAB           &trans      &kp HOME        &kp UP_ARROW    &kp END          &kp C_VOLUME_UP      &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS  &kp BACKSPACE
+&kp LEFT_CONTROL  &kp LGUI    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN    &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp EQUAL
+&kp LSHFT         &kp K_UNDO  &kp K_CUT       &kp K_COPY      &kp K_PASTE      &kp PRINTSCREEN      &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp DEL
+                                              &kp LGUI        &mo 2            &kp SPACE            &kp ENTER     &mo 3         &kp NUMBER_0
             >;
         };
 
