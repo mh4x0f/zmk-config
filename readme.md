@@ -1,0 +1,1 @@
+### zmk config for lily58 pro
