@@ -42,7 +42,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                                         &kp PLUS      &kp EQUAL  &trans         &trans  &trans                &kp BACKSPACE
+&bt BT_CLR      &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4  &bt BT_SEL 0                                         &kp PLUS      &kp EQUAL  &trans         &trans  &trans                &kp BACKSPACE
 &kp TAB         &trans          &kp UP_ARROW    &trans           &trans        &trans                                               &kp MINUS     &kp N7     &kp N8         &kp N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans                                               &kp ASTERISK  &kp N4     &kp N5         &kp N6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &kp LCTRL       &kp K_UNDO      &kp K_CUT       &kp K_COPY       &kp K_PASTE   &trans        &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp COMMA     &kp N1     &kp N2         &kp N3  &kp LEFT_BRACE        &kp RIGHT_BRACE
