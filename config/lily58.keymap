@@ -25,9 +25,14 @@
             key-positions = <0 11>;
         };
 
-        default_layer {
-            bindings = <&tog 0>;
-            key-positions = <50 57>;
+        tog_lower_layer {
+            bindings = <&tog 1>;
+            key-positions = <12 23>;
+        };
+
+        tog_raise_layer {
+            bindings = <&tog 2>;
+            key-positions = <24 35>;
         };
     };
 
