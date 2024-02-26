@@ -85,11 +85,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp ESCAPE        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                            &kp F6  &kp F7          &kp F8          &kp F9           &kp F10  &kp DEL
-&kp TAB           &none   &none   &none   &none   &none                             &none   &none           &kp UP_ARROW    &none            &kp F11  &kp F12
-&kp LEFT_SHIFT    &none   &none   &none   &none   &none                             &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &kp LEFT_BRACKET
-&kp LEFT_CONTROL  &none   &none   &none   &none   &none   &bt BT_PRV    &bt BT_NXT  &none   &none           &none           &none            &none    &none
-                                  &trans  &trans  &trans  &kp SPACE     &kp ENTER   &trans  &trans          &trans
+&kp ESCAPE        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                            &kp F6      &kp F7          &kp F8          &kp F9           &kp F10        &kp DEL
+&kp TAB           &none   &none   &none   &none   &none                             &kp K_NEXT  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp C_VOLUME_UP
+&kp LEFT_SHIFT    &none   &none   &none   &none   &none                             &kp K_PREV  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp C_VOL_DN
+&kp LEFT_CONTROL  &none   &none   &none   &none   &none   &bt BT_PRV    &bt BT_NXT  &none       &none           &none           &none            &none          &kp K_MUTE
+                                  &trans  &trans  &trans  &kp SPACE     &kp ENTER   &trans      &trans          &trans
             >;
         };
 
