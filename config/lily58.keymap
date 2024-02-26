@@ -68,11 +68,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp CAPSLOCK    &none          &kp K_MUTE      &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                            &kp MINUS      &kp PLUS  &kp ASTERISK   &kp EQUAL  &kp PRINTSCREEN       &kp BACKSPACE
-&kp TAB         &kp PAGE_UP    &kp HOME        &kp UP_ARROW      &kp END            &kp K_NEXT                              &kp BACKSLASH  &kp N7    &kp N8         &kp N9     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LEFT_SHIFT  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp K_PREV                              &kp COMMA      &kp N4    &kp N5         &kp N6     &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&kp LCTRL       &kp K_UNDO     &none           &kp K_COPY        &kp K_PASTE        &none         &bt BT_PRV    &bt BT_NXT  &kp DOT        &kp N1    &kp N2         &kp N3     &kp LEFT_BRACE        &kp RIGHT_BRACE
-                                               &kp LEFT_ALT      &kp LWIN           &trans        &kp SPACE     &kp ENTER   &trans         &kp N0    &kp RIGHT_ALT
+&kp CAPSLOCK    &kp PRINTSCREEN  &kp K_MUTE      &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                            &kp MINUS      &kp PLUS  &kp ASTERISK   &kp EQUAL  &none                 &kp BACKSPACE
+&kp TAB         &kp PAGE_UP      &kp HOME        &kp UP_ARROW      &kp END            &kp K_NEXT                              &kp BACKSLASH  &kp N7    &kp N8         &kp N9     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LEFT_SHIFT  &kp PAGE_DOWN    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp K_PREV                              &kp COMMA      &kp N4    &kp N5         &kp N6     &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp LCTRL       &kp K_UNDO       &none           &kp K_COPY        &kp K_PASTE        &none         &bt BT_PRV    &bt BT_NXT  &kp DOT        &kp N1    &kp N2         &kp N3     &kp LEFT_BRACE        &kp RIGHT_BRACE
+                                                 &kp LEFT_ALT      &kp LWIN           &trans        &kp SPACE     &kp ENTER   &trans         &kp N0    &kp RIGHT_ALT
             >;
         };
 
