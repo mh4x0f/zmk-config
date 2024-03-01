@@ -20,17 +20,17 @@
 
         enable_gamer {
             bindings = <&tog 4>;
-            key-positions = <0 11>;
+            key-positions = <4 5>;
         };
 
         tog_lower_layer {
             bindings = <&tog 1>;
-            key-positions = <12 23>;
+            key-positions = <57 56>;
         };
 
         tog_raise_layer {
             bindings = <&tog 2>;
-            key-positions = <24 35>;
+            key-positions = <51 50>;
         };
 
         ctrl_alt_del {
