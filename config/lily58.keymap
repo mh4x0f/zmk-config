@@ -25,12 +25,12 @@
 
         tog_lower_layer {
             bindings = <&tog 1>;
-            key-positions = <57 56>;
+            key-positions = <54 43>;
         };
 
         tog_raise_layer {
             bindings = <&tog 2>;
-            key-positions = <51 50>;
+            key-positions = <53 42>;
         };
 
         ctrl_alt_del {
