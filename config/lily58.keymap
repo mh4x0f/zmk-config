@@ -15,7 +15,7 @@
 
         settings {
             bindings = <&mo 3>;
-            key-positions = <53 54>;
+            key-positions = <36 49>;
         };
 
         enable_gamer {
